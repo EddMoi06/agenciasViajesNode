@@ -1,0 +1,31 @@
+extends ./layout/index
+
+block contenido
+    main.container.mt-5
+        .row 
+            .col-md-5 
+                img(src="/img/nosotros.jpg", alt="Imagen nosotros", class="img-fluid")
+            .col-md-7
+                h1 #{pagina}
+
+                blockquote hendrerit risus sit amet commodo faucibus. Vivamus ut iaculis massa. Nullam felis mi, aliquam ac maximus volutpat, rhoncus non dui. Nam at mi metus. Mauris suscipit nisi at elit vulputate, in pellentesque lacus mollis. 
+
+                p in eleifend neque. Fusce efficitur ante at tortor tempor, vitae maximus nisl pellentesque. Aliquam sapien nunc, condimentum non sem nec, ultricies dignissim odio. Nunc volutpat vestibulum sodales. Curabitur molestie massa nec eros mollis maximus. Integer a magna rhoncus, tempus arcu at, molestie nisi. Nulla facilisi. Aenean sed varius tortor.
+
+                p arcu nibh, imperdiet quis dui vel, mollis facilisis massa. Suspendisse id lorem eu enim pretium sollicitudin. Morbi vestibulum sagittis nulla, vitae pretium tellus dapibus eget. Vivamus venenatis pellentesque nisi, eget accumsan neque placerat ut. Vestibulum rhoncus vehicula nisi sagittis sollicitudin. Nullam scelerisque dolor ac sollicitudin convallis.
+        
+    .listado-iconos 
+        .container.mt-5.py-5
+            .row
+                .col-md-4.text-center 
+                    img(src="img/icono_seguridad.svg", alt="Icono Seguridad", class="img-fluid mb-4")
+                    h2.mb-4 Seguridad 
+                    p Vestibulum rhoncus vehicula nisi sagittis sollicitudin. Nullam scelerisque dolor ac sollicitudin convallis.
+                .col-md-4.text-center
+                    img(src="img/icono_destinos.svg", alt="Icono precios", class="img-fluid mb-4")
+                    h2.mb-4 Destinos 
+                    p Vestibulum rhoncus vehicula nisi sagittis sollicitudin. Nullam scelerisque dolor ac sollicitudin convallis.
+                .col-md-4.text-center 
+                    img(src="img/icono_precio.svg", alt="Icono Precio", class="img-fluid mb-4")
+                    h2.mb-4 Precios 
+                    p Vestibulum rhoncus vehicula nisi sagittis sollicitudin. Nullam scelerisque dolor ac sollicitudin convallis.
